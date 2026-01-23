@@ -7,7 +7,7 @@
 
   <!-- =========================
        CSS (STYLESHEET)
-       ========================= -->
+  ========================== -->
   <style>
     :root{
       --bg1:#0a1217;
@@ -192,10 +192,56 @@
       font-weight: 800;
       font-size: 12px;
     }
+    .topbar{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding: 22px 26px 0;
+}
+
+.back{
+  width:40px;
+  height:40px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.04);
+  color:rgba(234,247,251,.9);
+  display:grid;
+  place-items:center;
+  cursor:pointer;
+  font-size:18px;
+  font-weight:900;
+}
+
+.back:hover{ background:rgba(255,255,255,.07); }
+
+.title{
+  font-size:34px;
+  font-weight:1000;
+  color: var(--accent);
+  line-height:1;
+}
+
+/* give space so form doesn't stick to header */
+.wrap{
+  padding-top: 28px;
+}
   </style>
 </head>
 
 <body>
+  <!-- HEADER -->
+<div class="topbar">
+  <button class="back" id="backBtn" type="button" aria-label="Back">←</button>
+
+  <div class="headText">
+    <div class="title">Feedback</div>
+  </div>
+
+  <div class="avatar" aria-hidden="true"></div>
+</div>
+
 
   <div class="wrap">
     <div class="form-area">
@@ -327,6 +373,7 @@
     window.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && overlay.classList.contains("show")) closeOverlay();
     });
+    const backBtn = document.getElementById("backBtn");
   </script>
 </body>
 </html>
