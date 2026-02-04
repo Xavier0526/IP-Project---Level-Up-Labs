@@ -9,18 +9,6 @@ function goHome() { // go back to quizzes page
     findQuiz("quizzespage");
 }
 
-function prepQuiz(type) {
-    findQuiz(type);
-    switch(type) {
-        case "history": fetchquestionshis(); break;
-        case "math": fetchquestionsmath(); break;
-        case "science": fetchquestionsci(); break;
-        case "geography": fetchquestionsgeo(); break;
-        case "general": fetchquestionsgen(); break;
-        case "animemanga": fetchquestionsam(); break;
-    }
-}
-
 let currentquestionIndexhis = 0;
 let questionshis = [];
 let scorehis = 0;
@@ -506,8 +494,17 @@ function nextquestionam(){
     }
 }
 
-
-
+function prepQuiz(topic) {
+    findQuiz(topic);
+    switch(topic) {
+        case "history": fetchquestionshis(); break;
+        case "math": fetchquestionsmath(); break;
+        case "science": fetchquestionssci(); break;
+        case "geography": fetchquestionsgeo(); break;
+        case "general": fetchquestionsgen(); break;
+        case "animemanga": fetchquestionsam(); break;
+    }
+}
 
 
 
