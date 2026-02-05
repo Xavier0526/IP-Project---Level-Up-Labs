@@ -1,10 +1,18 @@
 // Home 
-function toggleMenu() {
-    const nav = document.getElementById("sideNav");
-    const overlay = document.getElementById("overlay");
-    nav.classList.toggle("open");
-    overlay.classList.toggle("show");
-}
+const menuBtn = document.querySelector('.menu-btn');
+const closeBtn = document.querySelector('.close-btn');
+const sideNav = document.querySelector('.side-nav');
+const overlay = document.querySelector('.overlay');
+
+const toggleMenu = () => {
+    sideNav.classList.toggle('open');
+    overlay.classList.toggle('show');
+};
+
+
+menuBtn.addEventListener('click', toggleMenu);
+closeBtn.addEventListener('click', toggleMenu);
+overlay.addEventListener('click', toggleMenu);
 
 // Quiz
 function findQuiz(quizId) {
