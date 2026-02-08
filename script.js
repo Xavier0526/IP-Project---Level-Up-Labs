@@ -160,3 +160,186 @@ window.onkeydown = e => {
 };
 
 }
+
+// Time Management
+
+if (document.getElementById("dueBox") && document.getElementById("completedBox")) {
+
+let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+
+const dueBox = document.getElementById("dueBox");
+const completedBox = document.getElementById("completedBox");
+
+
+function renderTasks() {
+
+  dueBox.innerHTML = "";
+  completedBox.innerHTML = "";
+
+  tasks.forEach((task, index) => {
+
+    const div = document.createElement("div");
+
+    div.className = "task";
+    div.draggable = true;
+    div.dataset.index = index;
+
+
+    div.innerHTML = `
+      <div class="task-header">
+        <strong>${task.task}</strong>
+        <button class="delete-btn">✖</button>
+      </div>
+
+      <small>Due: ${task.endDate}</small>
+    `;
+
+
+    /* DRAG START */
+    div.addEventListener("dragstart", function(e) {
+
+      e.dataTransfer.setData("text/plain", index);
+      e.dataTransfer.effectAllowed = "move";
+
+      this.classList.add("dragging");
+    });
+
+
+    /* DRAG END */
+    div.addEventListener("dragend", function() {
+      this.classList.remove("dragging");
+    });
+
+
+    /* DELETE */
+    div.querySelector(".delete-btn").addEventListener("click", function(e) {
+
+      e.preventDefault();
+      e.stopPropagation();
+
+      tasks.splice(index, 1);
+
+      localStorage.setItem("tasks", JSON.stringify(tasks));
+
+      renderTasks();
+    });
+
+
+    if (task.status === "due") {
+      dueBox.appendChild(div);
+    } else {
+      completedBox.appendChild(div);
+    }
+
+  });
+
+}
+
+
+/* DROP ZONES */
+
+function setupDrop(box, status) {
+
+  box.addEventListener("dragover", function(e) {
+    e.preventDefault();
+    box.classList.add("drag-over");
+  });
+
+
+  box.addEventListener("dragleave", function() {
+    box.classList.remove("drag-over");
+  });
+
+
+  box.addEventListener("drop", function(e) {
+
+    e.preventDefault();
+
+    box.classList.remove("drag-over");
+
+    const index = e.dataTransfer.getData("text/plain");
+
+    if (index === "") return;
+
+    tasks[index].status = status;
+
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+
+    renderTasks();
+  });
+
+}
+
+
+setupDrop(dueBox, "due");
+setupDrop(completedBox, "done");
+
+renderTasks();
+
+
+}
+
+// Goals
+
+// Back button
+function goBack() {
+  window.history.back();
+}
+
+
+// Auto-fill subject
+const params = new URLSearchParams(window.location.search);
+const subject = params.get("subject");
+
+if (subject) {
+  document.getElementById("subjectInput").value = subject;
+}
+
+
+// Save task + redirect
+const form = document.getElementById("goalForm");
+
+form.addEventListener("submit", function(e) {
+
+  e.preventDefault();
+
+  const subject = document.getElementById("subjectInput").value;
+  const task = document.getElementById("taskInput").value;
+  const endDate = document.getElementById("endDate").value;
+
+  // Safety check
+  if (!task || !endDate) {
+    alert("Please complete all fields");
+    return;
+  }
+
+  const newTask = {
+    subject: subject,
+    task: task,
+    endDate: endDate,
+    status: "due"
+  };
+
+  // Get old tasks
+  let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+
+  // Add new
+  tasks.push(newTask);
+
+  // Save
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+
+  // Redirect
+  window.location.href = "time.html";
+
+});
+
+function toggleMenu() {
+
+  const nav = document.getElementById("sideNav");
+  const overlay = document.getElementById("overlay");
+
+  nav.classList.toggle("open");
+  overlay.classList.toggle("show");
+}
+

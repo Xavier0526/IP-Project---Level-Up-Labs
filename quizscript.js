@@ -1,3 +1,23 @@
+// Home Page
+
+if (document.querySelector('.menu-btn')) {
+
+const menuBtn = document.querySelector('.menu-btn');
+const closeBtn = document.querySelector('.close-btn');
+const sideNav = document.querySelector('.side-nav');
+const overlayHome = document.querySelector('.overlay');
+
+const toggleMenu = () => {
+    sideNav.classList.toggle('open');
+    overlayHome.classList.toggle('show');
+};
+
+menuBtn.addEventListener('click', toggleMenu);
+closeBtn.addEventListener('click', toggleMenu);
+overlayHome.addEventListener('click', toggleMenu);
+
+}
+
 // Quiz
 function findQuiz(quizId) {
     document.querySelectorAll(".quiz").forEach(quiz => {

@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eduLearn</title>
+    <title>eduLearn - Home</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> <!--Arrow at footer-->
 </head>
-
 <body>
 
-     <header class="top-bar"> <!--Header-->
+    <header class="top-bar"> <!--Header-->
         <div class="header-left">
             <button class="menu-btn"><img src="assets/menu.png" alt="Menu"></button>
-            <a href="index.html"><button class="edulearn"><img src="assets/logo.png" alt="Logo"></button></a>       
+            <a href="index.html"><button class="edulearn"><img src="assets/logo.png" alt="Logo"></button></a>      
         </div>
         <img src="assets/userprofile.jpg" class="profile" alt="Profile">
     </header>
 
-    <section class="quizbody">
     <nav class="side-nav"> <!--Hamburger-->
         <button class="close-btn"><img src="assets/cross.png" alt="X"></button>
 
         <a href="index.html">
-            <img src="assets/logo.png" class="logo">
+          <img src="assets/logo.png" class="logo" alt="logo">
         </a>
 
         <a class="nav-link" href="index.html">
@@ -32,12 +30,12 @@
             <span>Home</span>
         </a>
 
-        <a class="nav-link" href="time.html">
+        <a class="nav-link active" href="time.html">
             <img src="assets/time.png" alt="Time Management">
             <span>Time Management</span>
         </a>
 
-        <a class="nav-link active" href="quiz.html">
+        <a class="nav-link" href="quiz.html">
             <img src="assets/quiz.png" alt="Quiz">
             <span>Quiz</span>
         </a>
@@ -50,66 +48,42 @@
 
     <div class="overlay"></div> <!--Shadow across the page when hamburger menu is open-->
 
-    <div id="quizzespage" class="quiz current containerquiz"> <!--3 css class labels "quiz" "current" and "containerquiz" -->
-    <h1>Pick a Quiz</h1>
-    <button class="history-btn" onclick="prepQuiz('history')">History</button>
-    <button class="math-btn" onclick="prepQuiz('math')">Math</button>
-    <button class="science-btn" onclick="prepQuiz('science')">Science</button>
-    <button class="geography-btn" onclick="prepQuiz('geography')">Geography</button>
-    <button class="general-btn" onclick="prepQuiz('general')">General Knowledge</button>
-    <button class="am-btn" onclick="prepQuiz('animemanga')">Anime/Manga</button>
-    </div>
 
-    <div class="quiz containerquiz" id="history"> <!--2 css class labels "quiz" and "container quiz"-->
-        <h1>History Quiz</h1>
-        <div id="questionhis"></div>
-        <div id="choiceshis"></div>
-        <div id="resulthis"></div>
-        <button class="back-btn" onclick="goHome()">Back</button>
-    </div>
-    
-    <div class="quiz containerquiz" id="math"> <!--2 css class labels "quiz and "container quiz" -->
-        <h1>Math Quiz</h1>
-        <div id="questionmath"></div>
-        <div id="choicesmath"></div>
-        <div id="resultmath"></div>
-        <button class="back-btn" onclick="goHome()">Back</button>
-    </div>
+<main class="goals-container">
+  <p>&nbsp;</p>
+  <h2>Goals</h2>
+  <div class="target">
+    <img src="assets/target.png" alt="target">
+  </div>
 
-    <div class="quiz containerquiz" id="science"> <!--2 css class labels "quiz" and "container quiz"-->
-        <h1>Science Quiz</h1>
-        <div id="questionsci"></div>
-        <div id="choicessci"></div>
-        <div id="resultsci"></div>
-        <button class="back-btn" onclick="goHome()">Back</button>
-    </div>
 
-    <div class="quiz containerquiz" id="geography"> <!--2 css class labels "quiz" and "container quiz"-->
-        <h1>Geography Quiz</h1>
-        <div id="questiongeo"></div>
-        <div id="choicesgeo"></div>
-        <div id="resultgeo"></div>
-        <button class="back-btn" onclick="goHome()">Back</button>
-    </div>
+  <form class="goals-form" id="goalForm">
 
-    <div class="quiz containerquiz" id="general"> <!--2 css class labels "quiz" and "container quiz"-->
-        <h1>General Knowledge Quiz</h1>
-        <div id="questiongen"></div>
-        <div id="choicesgen"></div>
-        <div id="resultgen"></div>
-        <button class="back-btn" onclick="goHome()">Back</button>
-    </div>
+  <p class="goalsinfo">Subject</p>
+  <input type="text" id="subjectInput" readonly>
 
-    <div class="quiz containerquiz" id="animemanga"> <!--2 css class labels "quiz" and "container quiz"-->
-        <h1>Anime/Manga Quiz</h1>
-        <div id="questionam"></div>
-        <div id="choicesam"></div>
-        <div id="resultam"></div>
-        <button class="back-btn" onclick="goHome()">Back</button>
-    </div>
-    </section>
+  <p class="goalsinfo">Assignment / Project</p>
+  <input type="text" id="taskInput" placeholder="Enter task" required>
 
-      <!--Footer-->
+  <p class="goalsinfo">Start Date</p>
+  <input type="date" id="startDate" required>
+
+  <p class="goalsinfo">End Date</p>
+  <input type="date" id="endDate" required>
+
+  <p class="goalsinfo">Start Time</p>
+  <input type="time" id="startTime" required>
+
+  <p class="goalsinfo">End Time</p>
+  <input type="time" id="endTime" required>
+
+  <button type="submit" class="start-btn">START!</button>
+
+</form>
+
+</main>
+   
+    <!--Footer-->
     <footer>
         <div class="row">
             <!--Partnership infinite slider-->
@@ -167,7 +141,9 @@
         <hr>
         <p class="copyrights">EduLearn © 2026 - All Rights Reserved</p>
     </div>
+    
+</footer>
 
-<script src="quizscript.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

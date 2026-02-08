@@ -6,28 +6,32 @@
     <title>eduLearn - Home</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> <!--Arrow at footer-->
+    <!--<script src="https://kit.fontawesome.com/c4254e24a8.js"></script>-->
 </head>
 <body>
 
     <header class="top-bar"> <!--Header-->
         <div class="header-left">
             <button class="menu-btn"><img src="assets/menu.png" alt="Menu"></button>
-            <button class="edulearn"><img src="assets/logo.png" alt="Logo"></button>          
+            <a href="index.html"><button class="edulearn"><img src="assets/logo.png" alt="Logo"></button></a>       
         </div>
         <img src="assets/userprofile.jpg" class="profile" alt="Profile">
     </header>
 
     <nav class="side-nav"> <!--Hamburger-->
         <button class="close-btn"><img src="assets/cross.png" alt="X"></button>
-        <img src="assets/logo.png" class="logo">
-        <a class="nav-link active">
+
+        <a href="index.html">
+            <img src="assets/logo.png" class="logo">
+        </a>
+
+        <a class="nav-link active" href="index.html">
             <img src="assets/home.png" alt="Home">
             <span>Home</span>
         </a>
 
-        <a class="nav-link">
+        <a class="nav-link" href="time.html">
             <img src="assets/time.png" alt="Time Management">
             <span>Time Management</span>
         </a>
@@ -37,7 +41,7 @@
             <span>Quiz</span>
         </a>
 
-        <a class="nav-link">
+        <a class="nav-link" href="more.html">
             <img src="assets/more.png" alt="More">
             <span>More</span>
         </a>
@@ -83,7 +87,7 @@
                 <img src="assets/arrow.png" alt="Arrow">
             </button>
 
-            <button class="btn yellow" onclick="window.location.href=' '">
+            <button class="btn yellow" onclick="window.location.href='time.html'">
                 In Progress Work
                 <img src="assets/arrow.png" alt="Arrow">
             </button>
