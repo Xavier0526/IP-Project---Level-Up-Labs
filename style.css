@@ -152,8 +152,9 @@ h2 {
     gap: 40px;
 }
 
+/* Recently Visited */
 .recentcard {
-    background-color:#ffffffa8;
+    background-color:#ffffff72;
     padding: 40px 20px;
     border-radius: 10px;
     text-align: center;
@@ -994,7 +995,7 @@ h1 {
   border-radius: 10px;
   padding: 15px;
   flex-grow: 1;
-  color: red;
+  color: #F30000;
 }
 
 
@@ -1052,6 +1053,17 @@ h1 {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.back{
+  background:none;
+  border:none;
+  padding: 25px;
+}
+
+.back img{
+  width: 30px;
+  display: block;
 }
 
 .target {
@@ -1148,7 +1160,7 @@ h1 {
 .delete-btn {
   background: none;
   border: none;
-  color: red;
+  color: #F30000;
   font-size: 14px;
   cursor: pointer;
 }
