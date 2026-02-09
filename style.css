@@ -1123,12 +1123,6 @@ h1 {
     box-shadow: 0 3px 0 #C7B700;
 }
 
-/*.btn {
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-}*/
-
 /* Tasks */
 
 .task {
@@ -1458,7 +1452,7 @@ h1 {
 
 /* Save Button */
 .save-btn {
-  background: #6be36b;
+  background: #63E600;
   border: none;
   padding: 12px;
   width: 100%;
@@ -1505,52 +1499,72 @@ h1 {
 
 .upload-btn {
   background: #e5e5e5;
-
   border: none;
-
-  padding: 2px 8px;       /* VERY SMALL */
-
+  padding: 2px 8px;
   border-radius: 8px;
-
-  font-size: 10px;        /* Small text */
-
+  font-size: 10px;
   line-height: 1.2;
-
   cursor: pointer;
-
   pointer-events: auto;
-
-  width: auto;           /* Prevent stretch */
+  width: auto; /* Prevent stretch */
   min-width: unset;
   max-width: fit-content;
-
   margin: 0;
 }
-
 
 .upload-btn:hover {
   background: #ccc;
 }
 
-    #register-form {
-      max-width: 400px;
-      margin: auto;
-      background: white;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #ccc;
-    }
-
-    /* login */
-/* LOGIN PAGE */
-
-#login-form {
+#register-form {
+  display: block;
   max-width: 360px;
-  margin: 80px auto;
-  background: white;
+  margin: 40px auto;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-size: 14px;
+  text-align: center;
+}
+
+#register-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #545454;
+  box-shadow: 0 3px 0 #8B9298;
+  font-size: 14px;
+}
+
+#register-form button {
+  width: 100%;
+  padding: 10px;
+  background: #63E600;
+  box-shadow: 0 3px 0 #0CB100;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-control {
+  background: none;
+}
+
+/* Login Page */
+
+.login-logo {
+  width: 120px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+#login-form {
+  display: block;
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 25px;
   text-align: center;
 }
 
@@ -1559,26 +1573,27 @@ h1 {
   padding: 10px;
   margin: 12px 0;
   border-radius: 8px;
-  border: 1px solid #bbb;
+  border: 2px solid #545454;
+  box-shadow: 0 3px 0 #8B9298;
   font-size: 14px;
 }
 
 #login-form button {
   width: 100%;
   padding: 10px;
-  background: #7fe37f;
-  border: none;
+  background: #63E600;
+  box-shadow: 0 3px 0 #0CB100;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
 }
 
 #login-form button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 #login-form a {
-  color: #4CAF50;
+  color: #50ae08;
   text-decoration: none;
 }
 
@@ -1654,7 +1669,6 @@ h1 {
   font-size: 16px;
 }
 
-
 /* Button */
 .main-btn {
   width: 100%;
@@ -1724,10 +1738,6 @@ h1 {
 /* get started page */
 
 /* Welcome Page */
-
-/* ========================
-   DESKTOP FIRST DESIGN
-======================== */
 
 .welcome-page {
   background: #eaf4ff;
