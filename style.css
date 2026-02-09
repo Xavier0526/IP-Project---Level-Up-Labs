@@ -76,7 +76,7 @@ h2 {
     border-radius: 50%;
 }
 
-.side-nav {
+/* {
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -90,8 +90,9 @@ h2 {
     box-shadow: 2px 0 8px rgba(0,0,0,0.09);
     transition: 0.3s ease;
     z-index: 1000;
-}
+}*/
 
+/* Include to enable hamburger to open or else wont work */
 .side-nav.open {
     left: 0;
 }
@@ -1171,7 +1172,7 @@ h1 {
 
 /* Desktop Sidebar Navigation */
 
-.side-nav {
+/*.side-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -1184,7 +1185,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
+}*/
 
 
 /* Logo */
@@ -1223,7 +1224,7 @@ h1 {
 
 /* Hide sidebar on mobile */
 @media (max-width: 768px) {
-
+  
   .side-nav {
     display: none;
   }
@@ -1257,19 +1258,17 @@ h1 {
   border-right: 1px solid #ddd;
   padding: 20px 15px;
   z-index: 1000;
-
   display: flex;
   flex-direction: column;
   gap: 15px;
-
   transition: 0.3s ease;
 }
 
 
-/* Open State */
+/* Open State 
 .side-nav.open {
   left: 0;
-}
+}*/
 
 
 /* Close Button */
@@ -1304,7 +1303,7 @@ h1 {
 
 
 /* Bottom Nav Links */
-
+/*
 .bottom-nav a {
   text-decoration: none;
   color: black;
@@ -1312,13 +1311,13 @@ h1 {
 }
 
 .bottom-nav {
-  z-index: 9999; /* Bring to front */
+  z-index: 9999; /* Bring to front 
 }
 
 .side-nav {
   z-index: 10000;
 }
-
+*/
 
 /* Profile Page */
 
@@ -1735,85 +1734,93 @@ label {
 
 }
 
-/* get started page */
-
-/* Welcome Page */
-
+/* Welcome Page
 .welcome-page {
   background: #eaf4ff;
   height: 100vh;
   font-family: Arial, sans-serif;
-}
+}*/
+
+/* Get Started page */
 
 .welcome-wrapper {
-  max-width: 1000px;
-  height: 100%;
-  margin: auto;
-
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  text-align: center;
+  gap: 30px;
 }
 
-/* Left side */
+.getstartedcalltoaction {
+  font-weight: bold;
+}
+
+/* Left side
 .welcome-left {
   text-align: center;
   max-width: 400px;
-}
+}*/
 
 .welcome-logo {
-  width: 150px;
+  width: 200px;
   margin-bottom: 15px;
 }
 
 .welcome-left h1 {
-  color: #3f51b5;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .welcome-left p {
-  color: #555;
+  color: #545454;
   font-size: 16px;
 }
 
 
-/* Right side */
+/* Right side 
 .welcome-right {
   width: 300px;
 }
-
-.btn-yellow,
-.btn-green {
-  width: 100%;
+*/
+.getstarted,
+.ownacc {
+  display: block;
+  text-decoration: none;
+  justify-self: center;
+  width: 300px;
   padding: 14px;
   border: none;
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
-.btn-yellow {
-  background: #f0f75e;
+.getstarted {
+  background: #EBF300;
+  box-shadow: 0 3px 0 #CF9101;
+  color:#545454;
 }
 
-.btn-green {
-  background: #7ee35c;
+.ownacc {
+  background: #63E600;
+  box-shadow: 0 3px 0 #0CB100;
+  color:#545454;
 }
 
-.btn-yellow:hover,
-.btn-green:hover {
+.getstarted:hover,
+.ownacc:hover {
   opacity: 0.9;
 }
 
 .credit {
   font-size: 12px;
+  font-weight: bold;
   text-align: center;
-  color: #777;
+  color: #545454;
 }
-
-
 
 /* Mobile responsiveness */
 
@@ -1821,12 +1828,11 @@ label {
 
   .welcome-wrapper {
     flex-direction: column;
-    gap: 40px;
     padding: 20px;
   }
 
   .welcome-right {
-    width: 100%;
+    width: 300px;
   }
 
   .welcome-logo {
