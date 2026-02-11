@@ -25,9 +25,21 @@ To encourage consistent engagement, EduLearn features interactive quizzes where 
 
 
 # Assistive AI
-
+1. RestDB: ChatGPT was used to help with the login part to allow user login properly
+![Assistive AI Image](https://github.com/user-attachments/assets/bbb68a2f-bcde-4010-ac0a-730465c5168f)
 
 # Testing
+1. Login Page:
+   i. When login
+   ii. Try to login without username and password and verify that an error message about the required fields appears
+   iii. Try to login with invalid username and vwrify that a relevant error message appears
+   iv. Try to login with invalid password and verify that a relevant error message appears
 
+2. 
 
 # Credits
+**Content**
+
+**Media**
+
+**Acknowledgement**
