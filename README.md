@@ -30,6 +30,18 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 
   - The project uses Trivia API for quiz pages
 
+- [HTML Validation](https://validator.w3.org/#validate_by_upload)
+
+  - Validate HTML Codes
+
+- [CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_upload)
+
+  - Validate CSS Codes
+
+- [JavaScript Validation](https://codebeautify.org/jsvalidate)
+
+  - Validate JavaScript Codes
+ 
 # Assistive AI
 1. RestDB: ChatGPT was used to help with the login part to allow user login properly
 ![Assistive AI Image](https://github.com/user-attachments/assets/bbb68a2f-bcde-4010-ac0a-730465c5168f)
@@ -69,7 +81,75 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 [Figma](https://www.figma.com/design/TiZfXijqJoQMg4Lv1CDlBi/AD_EduLearn_Prototype?node-id=0-1&p=f)
 
 **Media**
+The photos used in this site were obtained from:
+
+__Partnerships Logo__
+
+https://logowik.com/gegenfeld-logo-vector-78339.html 
+
+https://logowik.com/membre-associe-psl-universite-paris-logo-vector-77170.html
+
+https://logowik.com/perculus-logo-vector-76990.html#google_vignette
+
+
+__images__
+
+https://unsplash.com/photos/womans-face-EGVccebWodM
+
+https://unsplash.com/photos/man-standing-near-white-wall-d1UPkiFd04A
+
+https://unsplash.com/photos/man-in-black-and-white-adidas-hoodie-0NCjjD0zGnw
+
+https://unsplash.com/photos/woman-wearing-black-crew-neck-shirt-3TLl_97HNJo
+
+https://unsplash.com/photos/man-wearing-black-shirt-aoEwuEH7YAs
+
+https://unsplash.com/photos/woman-in-green-shirt-sitting-on-books--Yo1cWJVKFY
+
+https://www.roblox.com/shopgiftcards
+
+https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k
+
+
+__Icons__
+
+Arrow back - https://www.flaticon.com/free-icon-font/arrow-left_3916810?term=arrow&related_id=3916810
+
+Home - https://www.flaticon.com/free-icon-font/house-chimney_9243286?page=1&position=4&term=house&origin=search&related_id=9243286
+
+Time Management - https://www.flaticon.com/free-icon-font/business-time_7653401?page=1&position=2&term=time+management&origin=search&related_id=7653401
+
+Quiz - https://www.flaticon.com/free-icon-font/quiz-test_19010596?page=1&position=7&term=quiz&origin=search&related_id=19010596
+
+More - https://www.flaticon.com/free-icon-font/circle-ellipsis_10741475?page=1&position=8&term=more&origin=search&related_id=10741475
+
+arrow - https://www.flaticon.com/free-icon-font/angle-small-left_3916892?page=1&position=8&term=arrow&origin=search&related_id=3916892
+
+Target - https://www.flaticon.com/free-icon/target_610064?term=target&page=1&position=11&origin=search&related_id=610064
+
+Recent Record - https://www.flaticon.com/free-icon/history_15783549?term=recent&page=1&position=49&origin=search&related_id=15783549
+
+Tick - https://www.flaticon.com/free-icon/check_9778606?term=tick&page=1&position=47&origin=search&related_id=9778606
+
+Cross - https://www.flaticon.com/free-icon/cross_87251?term=cross&page=1&position=44&origin=search&related_id=87251
+
+small cross used for time management - https://www.flaticon.com/free-icon-font/cross-small_4338828?page=1&position=5&term=cross&origin=search&related_id=4338828
+
+burger - https://www.flaticon.com/free-icon-font/menu-burger_3917762?page=1&position=3&term=menu&origin=search&related_id=3917762
+
+
 
 **Acknowledgement**
 
-[ChatGPT](https://chatgpt.com/)
+[ChatGPT](https://chatgpt.com/) was used to help with code
+
+https://www.w3schools.com/
+
+https://www.youtube.com/watch?v=FRRlFLfdvBE
+
+https://www.youtube.com/watch?v=6QE8dXq9SOE&list=PLpwngcHZlPae68z_mLFNfbJFIJVJ_Zcx2&index=9
+
+https://www.youtube.com/watch?v=mF9yOwlunWk
+
+https://www.youtube.com/watch?v=ypNb4XTvzI4
+
