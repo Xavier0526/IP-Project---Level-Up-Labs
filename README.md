@@ -76,11 +76,11 @@ To encourage consistent engagement with users, EduLearn features interactive qui
    viii. Verify that form fields are cleared after successful submission.
 
 ## Credits
-###Content
+Content
 
 [Figma](https://www.figma.com/design/TiZfXijqJoQMg4Lv1CDlBi/AD_EduLearn_Prototype?node-id=0-1&p=f)
 
-###Media
+Media
 The photos used in this site were obtained from:
 
 Partnerships Logo
@@ -140,7 +140,7 @@ burger - https://www.flaticon.com/free-icon-font/menu-burger_3917762?page=1&posi
 Audio
 https://pixabay.com/sound-effects/search/button-click/
 
-###Acknowledgement
+Acknowledgement
 
 [ChatGPT](https://chatgpt.com/) was used to help with code
 
