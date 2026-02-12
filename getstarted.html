@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"> <!-- Import font -->
     <link rel="stylesheet" href="style.css">
+    <audio id="audio" src="assets/autoclick.mp3" autostart="false"></audio> <!-- Audio -->
     <title>Get Started</title> 
 </head>
 <body>
@@ -17,10 +18,10 @@
         </div>
         
          <div class="welcome-right">
-            <a href="signup.html" class="getstarted">
+            <a onclick="soundOut('signup.html')" class="getstarted">
                 Get Started
             </a>
-            <a href="login.html" class="ownacc">
+            <a onclick="soundOut('login.html')" class="ownacc">
                 I Already Own an Account
             </a>
             <p class="credit">
@@ -29,5 +30,6 @@
          </div>
     </div>
 
+<script src="script.js"></script>
 </body>
 </html>

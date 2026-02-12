@@ -5,48 +5,51 @@
 <title>Profile</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"> <!-- Font Quicksand -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <link rel="stylesheet" href="style.css">
+<audio id="audio" src="assets/autoclick.mp3" autostart="false"></audio> <!-- Audio -->
 </head>
 <body>
     
     <header class="top-bar"> <!--Header-->
         <div class="header-left">
             <button class="menu-btn"><img src="assets/menu.png" alt="Menu"></button>
-            <a href="index.html" class="edulearn"><img src="assets/logo.png" alt="Logo"></a>       
+            <a onclick="soundOut('index.html')" class="edulearn"><img src="assets/logo.png" alt="Logo"></a>       
         </div>
-        <a href="userprofile.html"><img src="assets/userprofile.jpg" class="profile" alt="Profile"></a>
+        <a onclick="soundOut('userprofile.html')"><img src="assets/userprofile.jpg" class="profile" alt="Profile"></a>
     </header>
 
     <nav class="side-nav"> <!--Hamburger-->
         <button class="close-btn"><img src="assets/cross.png" alt="X"></button>
 
-        <a href="index.html">
+        <a onclick="soundOut('index.html')">
             <img src="assets/logo.png" class="logo" alt="logo">
         </a>
 
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" onclick="soundOut('index.html')">
             <img src="assets/home.png" alt="Home">
             <span>Home</span>
         </a>
 
-        <a class="nav-link" href="time.html">
+        <a class="nav-link" onclick="soundOut('time.html')">
             <img src="assets/time.png" alt="Time Management">
             <span>Time Management</span>
         </a>
 
-        <a class="nav-link" href="quiz.html">
+        <a class="nav-link" onclick="soundOut('quiz.html')">
             <img src="assets/quiz.png" alt="Quiz">
             <span>Quiz</span>
         </a>
 
-        <a class="nav-link" href="more.html">
+        <a class="nav-link" onclick="soundOut('more.html')">
             <img src="assets/more.png" alt="More">
             <span>More</span>
         </a>
     </nav>
 
 <div class="overlay"></div> <!--Shadow across the page when hamburger menu is open-->
+
+<button class="back" type="button" onclick="history.back()"><img src="assets/arrowback.png" alt="back"></button>
 
 <div class="profile-container">
 
@@ -55,7 +58,7 @@
     <img src="assets/userprofile.jpg" id="avatarPreview" class="avatar" alt="profile">
   </div>
 
-<!-- Profile info -->
+    <!-- Profile info -->
 
     <div class="form-group">
         <label>Username</label>
@@ -139,7 +142,6 @@
 
 <script src="script.js"></script>
 <script src="login.js"></script>
-<script src="https://widget.cloudinary.com/v2.0/global/all.js"></script>
 
 </body>
 </html>

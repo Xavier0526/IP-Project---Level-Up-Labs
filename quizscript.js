@@ -527,5 +527,17 @@ function prepQuiz(topic) {
     }
 }
 
+// Audio when button clicked
+
+function soundOut(page) {
+  var sound = document.getElementById('audio');
+  sound.play();
+
+  // Sound end then proceed to page
+  sound.onended = function() {
+    window.location.href = page;
+  }
+
+}
 
 

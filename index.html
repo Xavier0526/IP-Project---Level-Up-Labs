@@ -7,41 +7,42 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"> <!-- Font Quicksand -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> <!--Arrow at footer-->
-    <!--<script src="https://kit.fontawesome.com/c4254e24a8.js"></script>-->
+    <audio id="audio" src="assets/autoclick.mp3" autostart="false"></audio> <!-- Audio -->
+
 </head>
 <body>
 
     <header class="top-bar"> <!--Header-->
         <div class="header-left">
             <button class="menu-btn"><img src="assets/menu.png" alt="Menu"></button>
-            <a href="index.html" class="edulearn"><img src="assets/logo.png" alt="Logo"></a>       
+            <a onclick="soundOut('index.html')" class="edulearn"><img src="assets/logo.png" alt="Logo"></a>       
         </div>
-        <a href="userprofile.html"><img src="assets/userprofile.jpg" class="profile" alt="Profile"></a>
+        <a onclick="soundOut('userprofile.html')"><img src="assets/userprofile.jpg" class="profile" alt="Profile"></a>
     </header>
 
     <nav class="side-nav"> <!--Hamburger-->
         <button class="close-btn"><img src="assets/cross.png" alt="X"></button>
 
-        <a href="index.html">
+        <a onclick="soundOut('index.html')">
             <img src="assets/logo.png" class="logo" alt="Logo">
         </a>
 
-        <a class="nav-link active" href="index.html">
+        <a class="nav-link active" onclick="soundOut('index.html')">
             <img src="assets/home.png" alt="Home">
             <span>Home</span>
         </a>
 
-        <a class="nav-link" href="time.html">
+        <a class="nav-link" onclick="soundOut('time.html')">
             <img src="assets/time.png" alt="Time Management">
             <span>Time Management</span>
         </a>
 
-        <a class="nav-link" href="quiz.html">
+        <a class="nav-link" onclick="soundOut('quiz.html')">
             <img src="assets/quiz.png" alt="Quiz">
             <span>Quiz</span>
         </a>
 
-        <a class="nav-link" href="more.html">
+        <a class="nav-link" onclick="soundOut('more.html')">
             <img src="assets/more.png" alt="More">
             <span>More</span>
         </a>
@@ -81,17 +82,17 @@
             <h2>Things To Do</h2>
 
         <div class="actions">
-            <button class="btn pink" onclick="window.location.href='quiz.html'">
+            <button class="btn pink" onclick="soundOut('quiz.html')">
                 Test Your Knowledge
                 <img src="assets/arrow.png" alt="Arrow">
             </button>
 
-            <button class="btn yellow" onclick="window.location.href='time.html'">
+            <button class="btn yellow" onclick="soundOut('time.html')">
                 In Progress Work
                 <img src="assets/arrow.png" alt="Arrow">
             </button>
             
-            <button class="btn blue"  onclick="window.location.href='rewards.html'">
+            <button class="btn blue"  onclick="soundOut('rewards.html')">
                 Rewards
                 <img src="assets/arrow.png" alt="Arrow">
             </button>

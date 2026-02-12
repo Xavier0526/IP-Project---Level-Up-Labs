@@ -6,12 +6,13 @@
 <title>More</title>
 <link rel="stylesheet" href="more.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"> <!-- Import font -->
+<audio id="audio" src="assets/autoclick.mp3" autostart="false"></audio> <!-- Audio -->
 </head>
 
 <body class="page-more">
 
 <div class="topbar">
-  <a class="back" href="index.html"><img src="assets/arrowback.png" alt="back"></a>
+  <a class="back" onclick="soundOut('index.html')"><img src="assets/arrowback.png" alt="back"></a>
   <div class="title">More</div>
   </div>
 
@@ -24,31 +25,32 @@
   </div>
 
   <div class="list">
-    <a class="item" href="settings.html">
+    <a class="item" onclick="soundOut('settings.html')">
       <span>Settings</span><span class="chev"><img class="arrow" src="assets/arrow.png" alt="Arrow"></span>
     </a>
 
-    <a class="item" href="updates.html">
+    <a class="item" onclick="soundOut('updates.html')">
       <span>Updates</span><span class="chev"><img class="arrow" src="assets/arrow.png" alt="Arrow"></span>
     </a>
 
-    <a class="item" href="supportnfeedback.html">
+    <a class="item" onclick="soundOut('supportnfeedback.html')">
       <span>Support &amp; Feedback</span><span class="chev"><img class="arrow" src="assets/arrow.png" alt="Arrow"></span>
     </a>
 
-    <a class="item" href="policy.html">
+    <a class="item" onclick="soundOut('policy.html')">
       <span>Policy</span><span class="chev"><img class="arrow" src="assets/arrow.png" alt="Arrow"></span>
     </a>
 
-    <a class="item" href="about.html">
+    <a class="item" onclick="soundOut('about.html')">
       <span>About</span><span class="chev"><img class="arrow" src="assets/arrow.png" alt="Arrow"></span>
     </a>
 
-    <a class="item" href="getstarted.html">
+    <a class="item" onclick="soundOut('getstarted.html')">
       <span>Logout</span><span class="chev"><img class="arrow" src="assets/arrow.png" alt="Arrow"></span>
     </a>
   </div>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
