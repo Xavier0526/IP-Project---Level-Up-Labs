@@ -49,7 +49,7 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 
    i. Open the form page and verify all input fields Email, Subject / Description, Type of Issue are displayed there correctly.
    
-   ii. Try submitting the form without filling in any fields and verify whether a warning message will appear about the misiing fields.
+   ii. Try submitting the form without filling in any fields and verify whether a warning message will appear about the missing fields.
 
    iii.  Try entering an invalid email address (e.g. abc) and verify whether the browser will shows an invalid email format error.
 
