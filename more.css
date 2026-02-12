@@ -28,7 +28,6 @@ html, body, input, button, textarea, select {
 body{
   margin:0;
   min-height:100vh;
-  font-family:var(--font);
   color:var(--text);
   background: #DDEFFF;
 }
@@ -71,7 +70,6 @@ body{
 .avatar img{
   width:100%;
   height:100%;
-  object-fit:cover;
   display:block;
 }
 
@@ -103,7 +101,6 @@ body{
 }
 
 .textarea{
-  min-height:210px;
   resize:none;
 }
 
@@ -335,9 +332,6 @@ select option:disabled{ color: rgba(58,58,58,.55); }
 }
 
 /* About Page */
-/*.page-about .wrap{
-  padding:10px 26px 70px;
-}*/
 
 .page-about .content{ 
   margin: 0 auto;
@@ -347,7 +341,7 @@ select option:disabled{ color: rgba(58,58,58,.55); }
 
 .page-about .h2{
   font-size:22px;
-  font-weight:900;
+  font-weight:bold;
   margin:14px 0 14px;
 }
 
