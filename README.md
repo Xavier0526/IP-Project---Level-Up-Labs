@@ -47,7 +47,7 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 ![Assistive AI Image](https://github.com/user-attachments/assets/bbb68a2f-bcde-4010-ac0a-730465c5168f)
 
 ## Testing
-1. Login Page:
+### 1. Login Page:
 
    i. When login
    
@@ -57,7 +57,7 @@ To encourage consistent engagement with users, EduLearn features interactive qui
    
    iv. Try to login with invalid password and verify that a relevant error message appears
 
-2. Form Page
+### 2. Form Page
 
    i. Open the form page and verify all input fields Email, Subject / Description, Type of Issue are displayed there correctly.
    
@@ -76,11 +76,11 @@ To encourage consistent engagement with users, EduLearn features interactive qui
    viii. Verify that form fields are cleared after successful submission.
 
 ## Credits
-Content
+### Content
 
 [Figma](https://www.figma.com/design/TiZfXijqJoQMg4Lv1CDlBi/AD_EduLearn_Prototype?node-id=0-1&p=f)
 
-Media
+### Media
 The photos used in this site were obtained from:
 
 Partnerships Logo
@@ -140,7 +140,7 @@ burger - https://www.flaticon.com/free-icon-font/menu-burger_3917762?page=1&posi
 Audio
 https://pixabay.com/sound-effects/search/button-click/
 
-Acknowledgement
+### Acknowledgement
 
 [ChatGPT](https://chatgpt.com/) was used to help with code
 
