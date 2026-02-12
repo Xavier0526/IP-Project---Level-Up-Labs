@@ -43,20 +43,20 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 
 2. Form Page
 
-   i. Open the form page and verify all input fields (Email, Subject/Description, Type of Issue) are displayed correctly.
+   i. Open the form page and verify all input fields Email, Subject / Description, Type of Issue are displayed there correctly.
+   
+   ii. Try submitting the form without filling in any fields and verify whether a warning message will appear about the misiing fields.
 
-   ii. Try submitting the form without filling in any fields and verify that required field validation appears.
+   iii.  Try entering an invalid email address (e.g. abc) and verify whether the browser will shows an invalid email format error.
 
-   iii. Try entering an invalid email address (e.g. abc) and verify that the browser shows an email format error.
+   iv. Try submitting with only some fields filled and verify that we cannot do the submission until all required fields are completed.
 
-   iv. Try submitting with only some fields filled and verify submission is blocked until all required fields are completed.
+   v. Enter valid inputs for all fields and click Submit and verify that the confirmation message will appear.
 
-   v. Try submitting with only some fields and click Submit - verify that the confirmation popup appears.
-
-   vi. Click “Go Back” on the confirmation popup and verify the user returns to the form without losing entered data.
-
-   vii. Click “Submit” on the confirmation popup and verify that the Thank You message is displayed on the same page and allow users to navigate  back.
-
+   vi. Click “Go Back” on the confirmation popup and verify the user can return to the form without losing entered data.
+   
+   vii. Click “Submit” on the confirmation popup and verify that the Thank You message is displayed on the same page and allow users to navigate back.
+   
    viii. Verify that form fields are cleared after successful submission.
 
 # Credits
