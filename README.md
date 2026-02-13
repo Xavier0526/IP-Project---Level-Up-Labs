@@ -161,22 +161,38 @@ https://www.youtube.com/watch?v=6ukTdMSlerI
 #### Xavier 
 - Get Started Page
   
-- Signup, Login and Change Password page using restdb
+- Signup, Login and Change Password page using restdb, HTML, CSS and JavaScript
   
-- Loading page using Lottiefly animation
+- Loading page using Lottiefly animation and intergrate it to HTML and JavaScript for function
   
-- Index (Home) Page using infinite image slider and a feedback carousel
+- Index (Home) Page, interface and functions for the page using HTML, CSS and JavaScript
+
+- Userprofile Page, interface and functions for the page using HTML, CSS and JavaScript
+  
+- Time Page, interface and functions for the page using HTML, CSS and JavaScript
+
+- Goal Page, interface and functions for the page using HTML, CSS and JavaScript
 
 #### Kelvin
-- Policy Page
+- More page, interface and linkage of the following pages stated below using HTML, CSS, JavaScript
 
-- About Page
+- Setting and Update Page, interface and functions for the pages using HTML, CSS, JavaScript
+  
+- Update page, interface and functions for the page using HTML, CSS
 
-- Support & Feedback Page 
+- Policy Page, interface and functions for the page using HTML, CSS
+
+- About Page,  interface and functions for the page using HTML, CSS
+
+- Support & Feedback Page, interface and the functions using HTML, CSS and JavaScript
 
 - Contact and Feedback Page using form validation and overlay function 
 
-- More Page link to the Policy, About, Support & Feedback, Setting and Updates page
+#### Keno
+- Design for the whole web application as well as compiling the codes and linking between pages for unlinked pages
+  
+- Quiz Page using TrivaAPI and JavaScript to fetch questions from API as well as HTML and CSS for the interface and design
 
-- Setting and Update Page using a switch button for on and off function
-
+- Rewards Page using HTML for the interface and CSS, as well as embedment of the 3D models using iframe (embed is retrieved from Sketchfab)
+  
+- Redeem Page using HTML for the interface and CSS (can be navigated from the rewards page)
