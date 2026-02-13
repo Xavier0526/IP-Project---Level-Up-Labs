@@ -156,3 +156,27 @@ https://www.youtube.com/watch?v=ypNb4XTvzI4
 
 https://www.youtube.com/watch?v=6ukTdMSlerI
 
+### Individual Contribution
+
+#### Xavier 
+- Get Started Page
+  
+- Signup, Login and Change Password page using restdb
+  
+- Loading page using Lottiefly animation
+  
+- Index (Home) Page using infinite image slider and a feedback carousel
+
+#### Kelvin
+- Policy Page
+
+- About Page
+
+- Support & Feedback Page 
+
+- Contact and Feedback Page using form validation and overlay function 
+
+- More Page link to the Policy, About, Support & Feedback, Setting and Updates page
+
+- Setting and Update Page using a switch button for on and off function
+
