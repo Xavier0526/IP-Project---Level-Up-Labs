@@ -3,8 +3,11 @@ In a demanding academic environment, where many students struggle to balance eff
 
 To encourage consistent engagement with users, EduLearn features interactive quizzes where students can earn points and redeem rewards and prizes. By combining activity tracking, adaptive learning and gamified quizzes, EduLearn motivates students to manage their time more effectively, stay engaged and learn more efficiently.
 
-## Design Process
+### Github Link
+https://github.com/Xavier0526/EduLearn
 
+## Design Process
+Students often struggle to manage assignment and project datelines, stay attentive during lessons, and use their time productively. Instead of completing their work early, they procrastinate and delay their tasks, resulting in poor academic performance. This lowers student's confidence and self esteem, which reinforces unhealthy study habits. To address this underlying issue, we developed an app that provides deadline tracking features that serve as reminders. The app also includes a quiz section with over 4000 unique questions, where students can complete to earn points and redeem rewards. The reward system encourages users to continue using the app.
 
 ## Features
 - Feature 1 - Allows user to create/sign up for an account, by filling up username, email and password
@@ -45,6 +48,10 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 ## Assistive AI
 1. RestDB: ChatGPT was used to help with the login part to allow user login properly
 ![Assistive AI Image](https://github.com/user-attachments/assets/bbb68a2f-bcde-4010-ac0a-730465c5168f)
+
+2. User data not loading on user profile page: ChatGPT was used to help debug the issue of not loading user data in user profile page.   
+<img width="325" height="486" alt="image" src="https://github.com/user-attachments/assets/64e5afba-aaae-4cca-9a99-f85b9c0e7bda" />
+<img width="407" height="485" alt="image" src="https://github.com/user-attachments/assets/e8b171b0-57b1-4505-b619-4c3694ca3f1c" />
 
 ## Testing
 ### 1. Login Page:
@@ -156,3 +163,43 @@ https://www.youtube.com/watch?v=ypNb4XTvzI4
 
 https://www.youtube.com/watch?v=6ukTdMSlerI
 
+### Individual Contribution
+
+#### Xavier 
+- Get Started Page
+  
+- Signup, Login and Change Password page using restdb, HTML, CSS and JavaScript
+  
+- Loading page using Lottiefly animation and intergrate it to HTML and JavaScript for function
+  
+- Index (Home) Page, interface and functions for the page using HTML, CSS and JavaScript
+
+- Userprofile Page, interface and functions for the page using HTML, CSS and JavaScript
+  
+- Time Page, interface and functions for the page using HTML, CSS and JavaScript
+
+- Goal Page, interface and functions for the page using HTML, CSS and JavaScript
+
+#### Kelvin
+- More page, interface and linkage of the following pages stated below using HTML, CSS, JavaScript
+
+- Setting and Update Page, interface and functions for the pages using HTML, CSS, JavaScript
+  
+- Update page, interface and functions for the page using HTML, CSS
+
+- Policy Page, interface and functions for the page using HTML, CSS
+
+- About Page,  interface and functions for the page using HTML, CSS
+
+- Support & Feedback Page, interface and the functions using HTML, CSS and JavaScript
+
+- Contact and Feedback Page using form validation and overlay function 
+
+#### Keno
+- Design for the whole web application as well as compiling the codes and linking between pages for unlinked pages
+  
+- Quiz Page using TrivaAPI and JavaScript to fetch questions from API as well as HTML and CSS for the interface and design
+
+- Rewards Page using HTML for the interface and CSS, as well as embedment of the 3D models using iframe (embed is retrieved from Sketchfab)
+  
+- Redeem Page using HTML for the interface and CSS (can be navigated from the rewards page)
