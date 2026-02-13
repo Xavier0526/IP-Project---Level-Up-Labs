@@ -7,7 +7,7 @@ To encourage consistent engagement with users, EduLearn features interactive qui
 https://github.com/Xavier0526/EduLearn
 
 ## Design Process
-
+Students often struggle to manage assignment and project datelines, stay attentive during lessons, and use their time productively. Instead of completing their work early, they procrastinate and delay their tasks, resulting in poor academic performance. This lowers student's confidence and self esteem, which reinforces unhealthy study habits. To address this underlying issue, we developed an app that provides deadline tracking features that serve as reminders. The app also includes a quiz section with over 4000 unique questions, where students can complete to earn points and redeem rewards. The reward system encourages users to continue using the app.
 
 ## Features
 - Feature 1 - Allows user to create/sign up for an account, by filling up username, email and password
@@ -48,6 +48,10 @@ https://github.com/Xavier0526/EduLearn
 ## Assistive AI
 1. RestDB: ChatGPT was used to help with the login part to allow user login properly
 ![Assistive AI Image](https://github.com/user-attachments/assets/bbb68a2f-bcde-4010-ac0a-730465c5168f)
+
+2. User data not loading on user profile page: ChatGPT was used to help debug the issue of not loading user data in user profile page.   
+<img width="325" height="486" alt="image" src="https://github.com/user-attachments/assets/64e5afba-aaae-4cca-9a99-f85b9c0e7bda" />
+<img width="407" height="485" alt="image" src="https://github.com/user-attachments/assets/e8b171b0-57b1-4505-b619-4c3694ca3f1c" />
 
 ## Testing
 ### 1. Login Page:
