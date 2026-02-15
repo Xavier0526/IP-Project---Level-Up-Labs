@@ -165,7 +165,7 @@ https://www.youtube.com/watch?v=6ukTdMSlerI
 
 ### Individual Contribution
 
-#### Xavier 
+#### Xavier (Role: Web Developer)
 - Get Started Page
   
 - Signup, Login and Change Password page using restdb, HTML, CSS and JavaScript
@@ -180,7 +180,7 @@ https://www.youtube.com/watch?v=6ukTdMSlerI
 
 - Goal Page, interface and functions for the page using HTML, CSS and JavaScript
 
-#### Kelvin
+#### Kelvin (Role: UI Developer)
 - More page, interface and linkage of the following pages stated below using HTML, CSS, JavaScript
 
 - Setting and Update Page, interface and functions for the pages using HTML, CSS, JavaScript
@@ -195,7 +195,7 @@ https://www.youtube.com/watch?v=6ukTdMSlerI
 
 - Contact and Feedback Page using form validation and overlay function 
 
-#### Keno
+#### Keno (Role: Frontend Developer)
 - Design for the whole web application as well as compiling the codes and linking between pages for unlinked pages
   
 - Quiz Page using TriviaAPI and JavaScript to fetch questions from API as well as HTML and CSS for the interface and design
